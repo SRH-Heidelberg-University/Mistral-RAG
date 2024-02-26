@@ -27,7 +27,7 @@ index= index
 docsearch=Pinecone.from_texts([t.page_content for t in docs_split], embedd_llm, index_name=index)
 vectorstore = Pinecone.from_existing_index(index, embedd_llm)
 
-'''pinecone setup for datalab server "pinecone-client==3.0.0". pinecone-client=2.2.4 may depricate in near future'''
+'''pinecone setup for 'datalab server' "pinecone-client==3.0.0". pinecone-client=2.2.4 may depricate in near future'''
 # pinecone = Pinecone(api_key=api_key,environment=pinecone_env)
 # index= pinecone.Index(index)
 
