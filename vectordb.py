@@ -23,7 +23,7 @@ docs_split = text_splitter.split_documents(documents)
 pinecone=pinecone.init(api_key=api_key,environment=pinecone_env)
 index= index
 
-'''the below "only two lines" are from Hassan's code for pinecone-client=2.2.4 version'''
+'''the below "only two lines" are from Hassan's code,@hassanspaceimam for pinecone-client=2.2.4 version'''
 docsearch=Pinecone.from_texts([t.page_content for t in docs_split], embedd_llm, index_name=index)
 vectorstore = Pinecone.from_existing_index(index, embedd_llm)
 
