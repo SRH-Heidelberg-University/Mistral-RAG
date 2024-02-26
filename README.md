@@ -14,7 +14,7 @@ To get a working instance of Mistral Internal Search for development and testing
 #### Step 1: Clone the Repository
 Use the following command to clone the Mistral repository :
 ```bash
-git clone https://github.com/Tejasree-Reddy/Mistral_Internal_Search.git
+git clone https://github.com/SRH-Heidelberg-University/Mistral-RAG.git
 ```
 
 #### Step 2: Create a Conda Environment
