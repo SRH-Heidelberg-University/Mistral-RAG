@@ -3,7 +3,7 @@
 SRH-CHATBOT is a sophisticated chatbot system tailored for university environments, designed to deliver efficient and precise responses by utilizing cutting-edge technologies such as Meta Llama2, Mistral and Pinecone. Engineered for simplicity and scalability, it is ideally suited for diverse university-related applications, from streamlining administrative tasks and improving operational efficiency to facilitating interactive learning environments for students and faculty. This chatbot aims to transform communication within the university, ensuring that information and academic support are more accessible and effective for the entire university community.
 
 ## Getting Started
-Follow these steps to get a copy of Mistral Internal Search up and running on your local machine for development and testing purposes.
+To get a working instance of Mistral Internal Search for development and testing purposes, follow the below instructions.
 
 ### Prerequisites
 - **Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).
@@ -12,13 +12,13 @@ Follow these steps to get a copy of Mistral Internal Search up and running on yo
 ### Setup Instructions
 
 #### Step 1: Clone the Repository
-Clone the Mistral repository to your local machine using the command:
+Use the following command to clone the Mistral repository :
 ```bash
 git clone https://github.com/Tejasree-Reddy/Mistral_Internal_Search.git
 ```
 
 #### Step 2: Create a Conda Environment
-Navigate to the project directory and create a new Conda environment named `nenv` with Python 3.8:
+Navigate to the project directory and use Python 3.8 to build a new Conda environment called `nenv`
 ```bash
 conda create -n nenv python=3.8 -y
 ```
@@ -44,7 +44,7 @@ This Pinecone index is essential for storing and retrieving vectorized represent
 
 
 **Using Local PDF Documents**:
-  A few PDF documents available locally in `Data` folder
+  A few textbooks are available locally in `Data` folder
 
 
 **Using My Existed Account**:
