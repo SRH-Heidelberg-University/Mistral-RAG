@@ -50,7 +50,7 @@ This Pinecone index is essential for storing and retrieving vectorized represent
 **Using My Existed Account**:
   You can directly use my pinecone account. The necessary details have been encapsulated within the code.
 
-**In near future, the current pinecone-client version which I have used may deprecate. The code required to support the recent version is also included in the "vectordb.py" file. Before using it, run "pip install pinecone-client==3.0.0" in the nenv environment**
+**In near future, the current pinecone-client version used here may deprecate. The `commented` code supports the recent version(3.0.0) launched by pinecone is also included in the `vectordb.py` file. Before using it, run "pip install pinecone-client==3.0.0" in the nenv environment**
 
 ### Launch the LLM
 Run the `output.py` file to verify the answers from mistral
