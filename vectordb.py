@@ -10,7 +10,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from pinecone_key import api_key,pinecone_env,index
 from embedding import embedd_llm
 
-directory_path = Path("Data")  
+directory_path = Path("Data")  #added only textbooks here from data team to save time to push data to pinecone
 loader = DirectoryLoader(directory_path, glob="*.pdf",  loader_cls=PyPDFLoader,) 
 # Load all PDFs at once
 documents = loader.load()
